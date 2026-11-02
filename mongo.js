@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
 async function connc() {
 	const link = process.env.MONGODB_URI;
